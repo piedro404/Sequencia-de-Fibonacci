@@ -152,7 +152,7 @@ class mainWindow(QMainWindow):
 
         def creator(mainWindow):
             try:
-                webbrowser.open("https://www.instagram.com/wolfpiedro.art/")
+                webbrowser.open("https://www.instagram.com/piedro_404")
             except:
                 error.setText(f"Houve Algum erro!")
                 error.move(280,-10)
