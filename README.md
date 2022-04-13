@@ -1,6 +1,6 @@
 # Sequência-de-Fibonacci
 Personal project that aims to generate and calculate the Fibonacci sequence and the Golden Number using Python
-
+## Sequência-de-Fibonacci-1.0
 ![image](https://user-images.githubusercontent.com/88720549/163225076-dbf31d4c-3393-49b6-b192-95ba759a9c40.png)
 
 # Message for you
