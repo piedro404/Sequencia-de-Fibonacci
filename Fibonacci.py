@@ -5,6 +5,7 @@ from PyQt5.QtCore import QSize, qInf
 from PyQt5.QtGui import QIcon, QPixmap, qPixelFormatAlpha
 import sys
 import webbrowser
+import threading
 
 class mainWindow(QMainWindow):
 
@@ -118,7 +119,7 @@ class mainWindow(QMainWindow):
         creator_button.setIconSize(QSize(40, 40))
 
 
-        def go(mainWindow):
+        def go():
             error.setText("")
             error.move(-100,-100)
             listas_text.clear()
@@ -157,9 +158,11 @@ class mainWindow(QMainWindow):
                 error.setText(f"Houve Algum erro!")
                 error.move(280,-10)
 
+        def go_e(mainWindow):
+            threading.Thread(target=go).start()
 
 
-        go_button.clicked.connect(go)
+        go_button.clicked.connect(go_e)
         creator_button.clicked.connect(creator)
 
         self.show()
