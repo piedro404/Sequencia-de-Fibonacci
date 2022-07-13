@@ -2,8 +2,6 @@
 Personal project that aims to generate and calculate the Fibonacci sequence and the Golden Number using Python
 ## Sequência-de-Fibonacci-1.0
 ![image](https://user-images.githubusercontent.com/88720549/163225076-dbf31d4c-3393-49b6-b192-95ba759a9c40.png)
-## Sequência-de-Fibonacci-2.0
-![2022-07-13_10h57_07](https://user-images.githubusercontent.com/88720549/178752540-d1e32c2a-bf01-4325-b825-419c4d336906.png)
 
 # Message for you
 Hello, I hope you have a good learning experience, that you can clear your doubts or implement your projects. Feel free to make suggestions to improve the script.
