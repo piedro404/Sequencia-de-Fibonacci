@@ -1,7 +1,7 @@
 from PyQt5.QtWidgets import QWidget, QLineEdit, QLabel, QScrollArea,QVBoxLayout, QMainWindow, QToolButton, QLineEdit,QPlainTextEdit
 from PyQt5.QtCore import QSize
 from PyQt5 import QtWidgets
-from PyQt5.QtGui import QIcon, QPixmap,QTextBlock
+from PyQt5.QtGui import QIcon, QPixmap,QTextBlock, QTextCursor
 import sys
 import threading
 
